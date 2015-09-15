@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/number_cycles"
+        android:id="@+id/directions"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:id="@+id/btn_gostop"
+        android:layout_below="@+id/directions"
+        android:layout_alignEnd="@+id/directions"
+        android:layout_marginTop="39dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pi_approx"
+        android:id="@+id/pi_approx"
+        android:layout_marginTop="164dp"
+        android:layout_below="@+id/directions"
+        android:layout_alignStart="@+id/directions" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView_estimate"
+        android:layout_alignBottom="@+id/pi_approx"
+        android:layout_alignEnd="@+id/btn_gostop" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_alignBottom="@+id/btn_gostop"
+        android:layout_toStartOf="@+id/btn_gostop"
+        android:hint="@string/enter_here" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:id="@+id/btn_clear"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClickClear" />
+
+</RelativeLayout>

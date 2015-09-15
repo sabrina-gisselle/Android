@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Click-O-Tron</string>
+    <string name="increment">+1</string>
+    <string name="clear">0</string>
+    <string name="clicksingular">click</string>
+    <string name="clickplural">clicks</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

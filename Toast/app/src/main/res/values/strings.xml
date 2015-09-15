@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Toast</string>
+    <string name="button_text">I propose a</string>
+    <string name="toast_text">Toast</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

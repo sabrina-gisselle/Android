@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">X11Colors</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rgb_hex_code">rgb hex value</string>
+    <string name="color_name">color name</string>
+    <string name="add_next_color">Add Next Color</string>
+
+</resources>

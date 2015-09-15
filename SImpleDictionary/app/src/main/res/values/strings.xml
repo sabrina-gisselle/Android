@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SImpleDictionary</string>
+    <string name="term">Term</string>
+    <string name="definition">Definition</string>
+    <string name="lookup">Look Up</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
